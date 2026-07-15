@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+
+# Processed data (regenerate by running the pipeline)
+data/processed/*.csv
+
+# Model artifacts
+models/*.pkl
+
+# Reports
+reports/figures/*.png

@@ -1,0 +1,21 @@
+# Configuration for the Student Exam Pass Prediction project.
+
+data:
+  raw_path: "data/raw/student_exam_data.csv"
+  processed_path: "data/processed/student_exam_data_cleaned.csv"
+
+features:
+  columns: ["Study Hours", "Previous Exam Score"]
+  target_col: "Pass/Fail"
+
+split:
+  test_size: 0.2
+  random_state: 42
+
+output:
+  model_path: "models/best_model.pkl"
+  figures_path: "reports/figures"
+
+example_prediction:
+  study_hours: 9
+  previous_exam_score: 90
