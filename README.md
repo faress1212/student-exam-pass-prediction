@@ -1,4 +1,4 @@
-# Student Exam Pass Prediction 🎓
+# Student Exam Pass Prediction
 
 A classification project predicting whether a student passes or fails an exam, based on study hours and a previous exam score, comparing multiple classification models.
 
